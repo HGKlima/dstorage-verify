@@ -101,7 +101,7 @@ function checkBusiness() {
     resultDiv.innerHTML = "<span style='color: #787774;'>🔄 국세청 시스템 실시간 조회 중...</span>";
     
     // 공공데이터포털에서 발급받은 실장님의 [Encoding]된 서비스 키 입력
-    const SERVICE_KEY = "YOUR_ENCODING_SERVICE_KEY_HERE"; 
+    const SERVICE_KEY = c4c1853b7b15a86354f7f1ae1602d566df5a60e12cbe8c57e55ef0fed2e7eefc; 
     const url = `https://api.odcloud.kr/api/nts-businessman/v1/status?serviceKey=${SERVICE_KEY}`;
     
     fetch(url, {
